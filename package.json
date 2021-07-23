@@ -1,0 +1,30 @@
+{
+  "name": "blastgame-tapclap-test",
+  "version": "1.0.0",
+  "description": "test task for TapClap",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --mode development & live-server --port=8085 ",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omega1996/BlastGame-TapClap-test.git"
+  },
+  "author": "Ivan Riazanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omega1996/BlastGame-TapClap-test/issues"
+  },
+  "homepage": "https://github.com/omega1996/BlastGame-TapClap-test#readme",
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "live-server": "^1.2.1",
+    "phaser": "^3.55.2",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
