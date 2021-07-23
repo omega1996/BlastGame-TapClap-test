@@ -1,4 +1,6 @@
 import Phaser from 'phaser'
+import Game from './scenes/game'
+
 
 const config ={
     width: 800,
@@ -7,3 +9,8 @@ const config ={
 }
 
 const game = new Phaser.Game(config)
+
+game.scene.add('game', Game)
+
+game.scene.start('game')
+
