@@ -50,7 +50,7 @@ class Field extends Phaser.GameObjects.Grid {
 
 
     constructor(scene, xPos, yPos, width, height, xTiles, yTiles, gap = 2, colorsNum = 5) {
-        super(scene, xPos, yPos, width, height, width / xTiles, height / yTiles,)
+        super(scene, xPos, yPos, width, height, width / xTiles, height / yTiles)
         this.setOrigin(0, 0)
         this.gap = gap
         this.xPos = xPos;
@@ -62,28 +62,62 @@ class Field extends Phaser.GameObjects.Grid {
         this.tileWidth = width / this.xTiles - gap
         this.tileHeight = height / (this.yTiles * 0.9) - gap
 
+        this.grid = new Array(yTiles)
+
         if (this.colors.length < colorsNum) {
             throw new Error("not enough colors")
         }
 
         for (let i = 0; i < this.yTiles; i++) {
+            this.grid[i] = new Array(xTiles)
             for (let j = 0; j < this.xTiles; j++) {
                 const tileXPosition = this.xPos + this.tileWidth * j + this.gap * j
                 const tileYPosition = this.yPos + this.tileHeight * i * 0.9 - this.tileHeight * 0.1 + gap * i
-                const color = this.colors[Math.floor(Math.random()*colorsNum)]
-                let tile = this.scene.add.sprite(tileXPosition, tileYPosition, 'gamescene', color+'.png')
-                tile.displayHeight = this.tileHeight
-                tile.displayWidth = this.tileWidth
-                tile.setOrigin(0, 0)
-                tile.setDepth(100 - i - j)
+                const color = this.colors[Math.floor(Math.random() * colorsNum)]
+
+                // const tile = this.scene.add.sprite(tileXPosition, tileYPosition, 'gamescene', color + '.png')
+                // tile.displayHeight = this.tileHeight
+                // tile.displayWidth = this.tileWidth
+                // tile.setOrigin(0, 0)
+                // tile.setDepth(100 - i - j)
+
+                const tile = scene.add.existing(new Tile(scene, tileXPosition, tileYPosition, color, this.tileHeight, this.tileWidth, i, j))
+
+                // scene.add.existing(new Tile(scene,1,1,'red'))
 
             }
         }
 
-        this.scene.add.existing(this)
     }
 
 }
+
+
+class Tile extends Phaser.GameObjects.Sprite {
+    constructor(scene, x, y, color, height, width, row, column) {
+        super(scene, x, y, 'gamescene', color + '.png')
+
+        this.row = row
+        this.column = column
+        this.color = color
+
+
+        this.displayHeight = height
+        this.displayWidth = width
+        this.setOrigin(0, 0)
+        this.setDepth(200 - row)
+        this.setInteractive()
+
+        this.on('pointerdown', (e) => {
+            console.log(this.color);
+            this.destroy()
+        })
+
+    }
+
+
+}
+
 
 
 export default Game
