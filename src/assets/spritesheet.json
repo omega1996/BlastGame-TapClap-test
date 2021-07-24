@@ -1,0 +1,461 @@
+{
+	"textures": [
+		{
+			"image": "spritesheet.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 4050,
+				"h": 1968
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Field.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1635,
+						"h": 1819
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1635,
+						"h": 1819
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1635,
+						"h": 1819
+					}
+				},
+				{
+					"filename": "emptypanelscore.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1118,
+						"h": 1188
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1118,
+						"h": 1188
+					},
+					"frame": {
+						"x": 1638,
+						"y": 1,
+						"w": 1118,
+						"h": 1188
+					}
+				},
+				{
+					"filename": "panel score.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1118,
+						"h": 1188
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1118,
+						"h": 1188
+					},
+					"frame": {
+						"x": 2758,
+						"y": 1,
+						"w": 1118,
+						"h": 1188
+					}
+				},
+				{
+					"filename": "ProgressHolder.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1368,
+						"h": 267
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1368,
+						"h": 267
+					},
+					"frame": {
+						"x": 1638,
+						"y": 1191,
+						"w": 1368,
+						"h": 267
+					}
+				},
+				{
+					"filename": "bonus.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 437,
+						"h": 451
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 437,
+						"h": 451
+					},
+					"frame": {
+						"x": 3008,
+						"y": 1191,
+						"w": 437,
+						"h": 451
+					}
+				},
+				{
+					"filename": "bonuses.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1249,
+						"h": 451
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1249,
+						"h": 451
+					},
+					"frame": {
+						"x": 1638,
+						"y": 1460,
+						"w": 1249,
+						"h": 451
+					}
+				},
+				{
+					"filename": "Progressbarempty.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1259,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1259,
+						"h": 103
+					},
+					"frame": {
+						"x": 1,
+						"y": 1822,
+						"w": 1259,
+						"h": 103
+					}
+				},
+				{
+					"filename": "прогресс.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 346,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 346,
+						"h": 56
+					},
+					"frame": {
+						"x": 1262,
+						"y": 1822,
+						"w": 346,
+						"h": 56
+					}
+				},
+				{
+					"filename": "Progressbarfiller.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 735,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 735,
+						"h": 86
+					},
+					"frame": {
+						"x": 2889,
+						"y": 1644,
+						"w": 735,
+						"h": 86
+					}
+				},
+				{
+					"filename": "money.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 529,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 529,
+						"h": 163
+					},
+					"frame": {
+						"x": 3447,
+						"y": 1191,
+						"w": 529,
+						"h": 163
+					}
+				},
+				{
+					"filename": "button2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 496,
+						"h": 157
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 496,
+						"h": 157
+					},
+					"frame": {
+						"x": 3447,
+						"y": 1356,
+						"w": 496,
+						"h": 157
+					}
+				},
+				{
+					"filename": "pause.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 291,
+						"h": 291
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 291,
+						"h": 291
+					},
+					"frame": {
+						"x": 3626,
+						"y": 1515,
+						"w": 291,
+						"h": 291
+					}
+				},
+				{
+					"filename": "plusButton.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 122,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 122,
+						"h": 126
+					},
+					"frame": {
+						"x": 3447,
+						"y": 1515,
+						"w": 122,
+						"h": 126
+					}
+				},
+				{
+					"filename": "money2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 397,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 397,
+						"h": 163
+					},
+					"frame": {
+						"x": 2889,
+						"y": 1732,
+						"w": 397,
+						"h": 163
+					}
+				},
+				{
+					"filename": "blue.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 192
+					},
+					"frame": {
+						"x": 3288,
+						"y": 1732,
+						"w": 171,
+						"h": 192
+					}
+				},
+				{
+					"filename": "бонусы.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 383,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 383,
+						"h": 70
+					},
+					"frame": {
+						"x": 2889,
+						"y": 1897,
+						"w": 383,
+						"h": 70
+					}
+				},
+				{
+					"filename": "button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 367,
+						"h": 157
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 367,
+						"h": 157
+					},
+					"frame": {
+						"x": 3461,
+						"y": 1808,
+						"w": 367,
+						"h": 157
+					}
+				},
+				{
+					"filename": "green.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 192
+					},
+					"frame": {
+						"x": 3878,
+						"y": 1,
+						"w": 171,
+						"h": 192
+					}
+				},
+				{
+					"filename": "purple.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 192
+					},
+					"frame": {
+						"x": 3878,
+						"y": 195,
+						"w": 171,
+						"h": 192
+					}
+				},
+				{
+					"filename": "red.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 192
+					},
+					"frame": {
+						"x": 3878,
+						"y": 389,
+						"w": 171,
+						"h": 192
+					}
+				},
+				{
+					"filename": "yellow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 171,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 171,
+						"h": 192
+					},
+					"frame": {
+						"x": 3878,
+						"y": 583,
+						"w": 171,
+						"h": 192
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:f712ad1cbe78a7b30c1304cfde337eee:513cc2f04b7a5b3ffcdf91298ac704e8:729adc6043343cfda41c447ce8f464d6$"
+	}
+}

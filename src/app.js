@@ -5,7 +5,17 @@ import Game from './scenes/game'
 const config ={
     width: 800,
     height: 500,
-    type: Phaser.AUTO
+    type: Phaser.AUTO,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: {
+                y: 100,
+                debug: true
+            }
+        }
+    },
+    backgroundColor: "#a1a1a1"
 }
 
 const game = new Phaser.Game(config)
